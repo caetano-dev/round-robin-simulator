@@ -1,0 +1,135 @@
+INFO:root:Starting scheduler with a quantum of 2 seconds.
+INFO:root:Starting 4 tasks with a quantum of 2s. Each counting up to: [6, 15, 3, 10]
+INFO:root:PID 4897 - Task process 1 started.
+INFO:root:PID 4898 - Task process 2 started.
+INFO:root:PID 4899 - Task process 3 started.
+INFO:root:PID 4900 - Task process 4 started.
+INFO:root:PID 4897 - Task 1 added to the queue.
+INFO:root:PID 4898 - Task 2 added to the queue.
+INFO:root:PID 4899 - Task 3 added to the queue.
+INFO:root:PID 4900 - Task 4 added to the queue.
+INFO:root:PID 4897 - Task 1 counting from 0 to: 6
+INFO:root:PID 4898 - Task 2 counting from 0 to: 15
+INFO:root:PID 4899 - Task 3 counting from 0 to: 3
+INFO:root:PID 4900 - Task 4 counting from 0 to: 10
+INFO:root:PID 4897 - Task 1 received SIGSTOP signal.
+INFO:root:PID 4898 - Task 2 received SIGSTOP signal.
+INFO:root:PID 4899 - Task 3 received SIGSTOP signal.
+INFO:root:PID 4900 - Task 4 received SIGSTOP signal.
+INFO:root:Scheduler started after adding all processes to the queue.
+INFO:root:PID 4897 - Task 1 resuming for 2s.
+INFO:root:PID 4897 - Task 1 received SIGCONT signal.
+INFO:root:PID 4897 - Task 1 counting: 0.30 of 6
+INFO:root:PID 4897 - Task 1 counting: 0.60 of 6
+INFO:root:PID 4897 - Task 1 counting: 0.90 of 6
+INFO:root:PID 4897 - Task 1 counting: 1.20 of 6
+INFO:root:PID 4897 - Task 1 counting: 1.50 of 6
+INFO:root:PID 4897 - Task 1 counting: 1.80 of 6
+INFO:root:PID 4897 - Task 1 counting: 2.10 of 6
+INFO:root:PID 4897 - Task 1 pausing after quantum.
+INFO:root:PID 4897 - Task 1 received SIGSTOP signal.
+INFO:root:PID 4898 - Task 2 resuming for 2s.
+INFO:root:PID 4898 - Task 2 received SIGCONT signal.
+INFO:root:PID 4898 - Task 2 counting: 1.00 of 15
+INFO:root:PID 4898 - Task 2 counting: 2.00 of 15
+INFO:root:PID 4898 - Task 2 pausing after quantum.
+INFO:root:PID 4898 - Task 2 received SIGSTOP signal.
+INFO:root:PID 4899 - Task 3 resuming for 2s.
+INFO:root:PID 4899 - Task 3 received SIGCONT signal.
+INFO:root:PID 4899 - Task 3 counting: 0.50 of 3
+INFO:root:PID 4899 - Task 3 counting: 1.00 of 3
+INFO:root:PID 4899 - Task 3 counting: 1.50 of 3
+INFO:root:PID 4899 - Task 3 counting: 2.00 of 3
+INFO:root:PID 4899 - Task 3 pausing after quantum.
+INFO:root:PID 4899 - Task 3 received SIGSTOP signal.
+INFO:root:PID 4900 - Task 4 resuming for 2s.
+INFO:root:PID 4900 - Task 4 received SIGCONT signal.
+INFO:root:PID 4900 - Task 4 counting: 2.00 of 10
+INFO:root:PID 4900 - Task 4 pausing after quantum.
+INFO:root:PID 4900 - Task 4 received SIGSTOP signal.
+INFO:root:PID 4897 - Task 1 resuming for 2s.
+INFO:root:PID 4897 - Task 1 received SIGCONT signal.
+INFO:root:PID 4897 - Task 1 counting: 2.40 of 6
+INFO:root:PID 4897 - Task 1 counting: 2.70 of 6
+INFO:root:PID 4897 - Task 1 counting: 3.00 of 6
+INFO:root:PID 4897 - Task 1 counting: 3.30 of 6
+INFO:root:PID 4897 - Task 1 counting: 3.60 of 6
+INFO:root:PID 4897 - Task 1 counting: 3.90 of 6
+INFO:root:PID 4897 - Task 1 counting: 4.20 of 6
+INFO:root:PID 4897 - Task 1 pausing after quantum.
+INFO:root:PID 4897 - Task 1 received SIGSTOP signal.
+INFO:root:PID 4898 - Task 2 resuming for 2s.
+INFO:root:PID 4898 - Task 2 received SIGCONT signal.
+INFO:root:PID 4898 - Task 2 counting: 3.00 of 15
+INFO:root:PID 4898 - Task 2 counting: 4.00 of 15
+INFO:root:PID 4898 - Task 2 pausing after quantum.
+INFO:root:PID 4898 - Task 2 received SIGSTOP signal.
+INFO:root:PID 4899 - Task 3 resuming for 2s.
+INFO:root:PID 4899 - Task 3 received SIGCONT signal.
+INFO:root:PID 4899 - Task 3 counting: 2.50 of 3
+INFO:root:PID 4899 - Task 3 counting: 3.00 of 3
+INFO:root:PID 4899 - Task 3 finished.
+INFO:root:PID 4899 - Task 3 finished during its quantum.
+INFO:root:PID 4900 - Task 4 resuming for 2s.
+INFO:root:PID 4900 - Task 4 received SIGCONT signal.
+INFO:root:PID 4900 - Task 4 counting: 4.00 of 10
+INFO:root:PID 4900 - Task 4 pausing after quantum.
+INFO:root:PID 4900 - Task 4 counting: 6.00 of 10
+INFO:root:PID 4900 - Task 4 received SIGSTOP signal.
+INFO:root:PID 4897 - Task 1 resuming for 2s.
+INFO:root:PID 4897 - Task 1 received SIGCONT signal.
+INFO:root:PID 4897 - Task 1 counting: 4.50 of 6
+INFO:root:PID 4897 - Task 1 counting: 4.80 of 6
+INFO:root:PID 4897 - Task 1 counting: 5.10 of 6
+INFO:root:PID 4897 - Task 1 counting: 5.40 of 6
+INFO:root:PID 4897 - Task 1 counting: 5.70 of 6
+INFO:root:PID 4897 - Task 1 counting: 6.00 of 6
+INFO:root:PID 4897 - Task 1 counting: 6.00 of 6
+INFO:root:PID 4897 - Task 1 finished.
+INFO:root:PID 4897 - Task 1 finished during its quantum.
+INFO:root:PID 4898 - Task 2 resuming for 2s.
+INFO:root:PID 4898 - Task 2 received SIGCONT signal.
+INFO:root:PID 4898 - Task 2 counting: 5.00 of 15
+INFO:root:PID 4898 - Task 2 counting: 6.00 of 15
+INFO:root:PID 4898 - Task 2 pausing after quantum.
+INFO:root:PID 4898 - Task 2 received SIGSTOP signal.
+INFO:root:PID 4900 - Task 4 resuming for 2s.
+INFO:root:PID 4900 - Task 4 received SIGCONT signal.
+INFO:root:PID 4900 - Task 4 pausing after quantum.
+INFO:root:PID 4900 - Task 4 counting: 8.00 of 10
+INFO:root:PID 4900 - Task 4 received SIGSTOP signal.
+INFO:root:PID 4898 - Task 2 resuming for 2s.
+INFO:root:PID 4898 - Task 2 received SIGCONT signal.
+INFO:root:PID 4898 - Task 2 counting: 7.00 of 15
+INFO:root:PID 4898 - Task 2 counting: 8.00 of 15
+INFO:root:PID 4898 - Task 2 pausing after quantum.
+INFO:root:PID 4898 - Task 2 received SIGSTOP signal.
+INFO:root:PID 4900 - Task 4 resuming for 2s.
+INFO:root:PID 4900 - Task 4 received SIGCONT signal.
+INFO:root:PID 4900 - Task 4 counting: 10.00 of 10
+INFO:root:PID 4900 - Task 4 finished.
+INFO:root:PID 4900 - Task 4 finished during its quantum.
+INFO:root:PID 4898 - Task 2 resuming for 2s.
+INFO:root:PID 4898 - Task 2 received SIGCONT signal.
+INFO:root:PID 4898 - Task 2 counting: 9.00 of 15
+INFO:root:PID 4898 - Task 2 counting: 10.00 of 15
+INFO:root:PID 4898 - Task 2 pausing after quantum.
+INFO:root:PID 4898 - Task 2 received SIGSTOP signal.
+INFO:root:PID 4898 - Task 2 resuming for 2s.
+INFO:root:PID 4898 - Task 2 received SIGCONT signal.
+INFO:root:PID 4898 - Task 2 counting: 11.00 of 15
+INFO:root:PID 4898 - Task 2 counting: 12.00 of 15
+INFO:root:PID 4898 - Task 2 pausing after quantum.
+INFO:root:PID 4898 - Task 2 received SIGSTOP signal.
+INFO:root:PID 4898 - Task 2 resuming for 2s.
+INFO:root:PID 4898 - Task 2 received SIGCONT signal.
+INFO:root:PID 4898 - Task 2 counting: 13.00 of 15
+INFO:root:PID 4898 - Task 2 counting: 14.00 of 15
+INFO:root:PID 4898 - Task 2 pausing after quantum.
+INFO:root:PID 4898 - Task 2 received SIGSTOP signal.
+INFO:root:PID 4898 - Task 2 resuming for 2s.
+INFO:root:PID 4898 - Task 2 received SIGCONT signal.
+INFO:root:PID 4898 - Task 2 counting: 15.00 of 15
+INFO:root:PID 4898 - Task 2 finished.
+INFO:root:PID 4898 - Task 2 finished during its quantum.
+INFO:root:Process queue empty. Scheduling completed.
